@@ -36,9 +36,7 @@
 #if defined(TDISP_USE_CUSTOM_BOARD) && TDISP_USE_CUSTOM_BOARD
 	/* Include the user supplied board definitions */
 	#include "tdisp_lld_board.h"
-#elif defined(BOARD_OLIMEX_STM32_E407)
-	#include "tdisp_lld_board_olimex_e407.h"
-#elif defined(BOARD_ST_STM32F4_DISCOVERY)
+#else
 	#include "tdisp_lld_board_example.h"
 #endif
 
