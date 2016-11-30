@@ -57,8 +57,8 @@
 
 #endif
 
-bool_t tdispInit(void) {
-	bool_t		res;
+bool tdispInit(void) {
+	bool		res;
 
 	MUTEX_INIT();
 

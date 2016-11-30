@@ -141,7 +141,7 @@ extern "C" {
  *
  * @init
  */
-bool_t tdispInit(void);
+bool tdispInit(void);
 
 /**
  * @brief		Clears the display

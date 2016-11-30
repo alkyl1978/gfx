@@ -35,7 +35,7 @@
 extern "C" {
 #endif
 
-	bool_t	tdisp_lld_init(void);
+	bool	tdisp_lld_init(void);
 	void	tdisp_lld_clear(void);
 	void	tdisp_lld_draw_char(char c);
 	void 	tdisp_lld_set_cursor(coord_t col, coord_t row);
